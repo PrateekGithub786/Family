@@ -1,0 +1,36 @@
+.heading{
+    font-size: 20px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 6px 6px 5px grey;
+}
+
+.heading_div{
+    float: none;
+    background: rgb(248, 4, 4);
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 6px 6px 5px grey;
+    transition: 2s;
+    -webkit-transition: background 2s; /* For Safari 3.0 to 6.0 */
+    transition: background 2s; /* For modern browsers */
+}
+
+.heading_div2{
+    font-size: 10px;
+    -webkit-transition: background 2s; /* For Safari 3.0 to 6.0 */
+    transition: background 2s; /* For modern browsers */
+}
+
+.heading_div:hover{
+    background: green;
+}
+
+.heading_div:hover .heading_div2{
+    background: rgb(248, 4, 4);;
+}
+
+.heading_div2:hover{
+    background: rgb(248, 4, 4);
+}
