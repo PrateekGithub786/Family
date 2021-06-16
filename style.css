@@ -34,3 +34,26 @@
 .heading_div2:hover{
     background: rgb(248, 4, 4);
 }
+
+.result_para_tag{
+    box-shadow: 5px 5px 5px grey;
+    font-size: 25px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: blue;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    line-height: 5;
+    text-align: center;
+    font-size: 15px;
+}
+
+canvas{
+    border: 2px dashed red;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px grey;
+    margin-top: 250px;
+}
